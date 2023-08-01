@@ -1,0 +1,81 @@
+.credit-debit-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 35vw;
+
+  border-radius: 25px;
+  background: #fff;
+}
+
+.dash-c-d-container {
+  display: flex;
+  flex-direction: row;
+  width: 1110px;
+  justify-content: space-between;
+  margin-left: 35px;
+}
+
+.credit-img {
+  width: 120px;
+  height: 161px;
+}
+.credit {
+  color: #16dbaa;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.text-dash {
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.debit {
+  color: #fe5c73;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.hori-bar {
+  display: flex;
+  width: 1190px;
+  padding: 24px 40px;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 25px;
+  height: 75px;
+}
+.horiBarHead {
+  color: #343c6a;
+  font-family: 'Inter';
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.dash-trans-list {
+  display: flex;
+  width: 1110px;
+  height: 210px;
+  padding: 12px 25px 8px 24px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  margin-left: 35px;
+}

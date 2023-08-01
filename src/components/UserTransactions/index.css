@@ -1,0 +1,15 @@
+.headerUser {
+  background-color: #ffffff;
+  width: 1150px;
+}
+.UserTransPage {
+  display: flex;
+  background-color: red;
+  border-style: solid;
+}
+.bandt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

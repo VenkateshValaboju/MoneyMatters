@@ -1,0 +1,43 @@
+.transPage {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f7fa;
+  background-size: cover;
+  min-height: 4500px;
+}
+.trans-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+.specialList {
+  justify-content: start;
+  padding-left: 60px;
+}
+.label1 {
+  padding-right: 110px;
+}
+.label2 {
+  padding-right: 138px;
+}
+.label3 {
+  padding-right: 150px;
+}
+.headerAndButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

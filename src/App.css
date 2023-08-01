@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+.credit_box {
+  display: flex;
+  width: 543px;
+  height: 168px;
+  padding: 25px 36px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  border-style: solid;
+}
+
+.login_Background {
+  background-image: radial-gradient(#f89a23, #02969c);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-box {
+  border-style: solid;
+  width: 40vw;
+  height: 40vh;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-width: 1px;
+  border-color: #02969c;
+}
+.NavBarHeading {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.NavBarOptions {
+  display: flex;
+  width: 189px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 38px;
+  flex-shrink: 0;
+}
+
+.NavBarOptionsBox2 {
+  display: flex;
+  width: 145px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  flex-shrink: 0;
+}
+.NavOptions {
+  color: var(--primary-3, #2d60ff);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

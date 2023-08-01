@@ -1,0 +1,17 @@
+.profileNav {
+  width: 23vw;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.logoutContainer {
+  display: flex;
+}
+
+.body {
+  margin: 0;
+}

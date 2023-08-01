@@ -1,0 +1,175 @@
+.money {
+  color: #f89a23;
+  font-family: Poppins;
+  font-size: 19.66px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.matters {
+  color: #02969c;
+  font-family: Poppins;
+  font-size: 19.66px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.left-NavBar {
+  width: 20vw;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding-left: 15px;
+}
+
+.Admin-page {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f7fa;
+  height: 1000px;
+}
+
+.header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 50px;
+}
+
+.headerTitle {
+  color: #343c6a;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.dashboard-content {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.cd-box {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+  width: 35vw;
+  height: 120px;
+  border-radius: 25px;
+}
+
+.cd-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+
+  justify-content: space-between;
+}
+
+.dash-subheads {
+  color: #333b69;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.addTransactionButton {
+  height: 25px;
+  border-radius: 8px;
+  background: #2d60ff;
+  outline: none;
+  color: #ffffff;
+}
+
+button {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+.dash-three-list {
+  display: flex;
+  width: 1110px;
+  height: 180px;
+  padding: 12px 25px 8px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  margin-left: 35px;
+}
+
+.chartContainer {
+  width: 80vw;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  padding: 25px;
+}
+.Chart {
+  border-style: solid;
+  height: 50px;
+}
+.cdLogo {
+  width: 100px;
+}
+.creditAmount {
+  color: #16dbaa;
+  font-family: Inter;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.debitAmount {
+  color: #fe5c73;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.logoName {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.ln-links {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  justify-content: space-between;
+  align-items: left;
+}
+
+ul {
+  display: flex;
+  width: 1110px;
+  height: 210px;
+  padding: 24px 30px 28px 30px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+  flex-shrink: 0;
+}
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 70vw;
+  height: 40px;
+}
